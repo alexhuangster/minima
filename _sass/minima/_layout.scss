@@ -241,7 +241,7 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
-  h2 {
+  h2, h2 > code {
     color: $headline-color;
     @include relative-font-size(1.75);
 
@@ -250,7 +250,7 @@
     }
   }
 
-  h3 {
+  h3, h3 > code {
     color: $headline-color;
     @include relative-font-size(1.375);
 
@@ -259,7 +259,7 @@
     }
   }
 
-  h4 {
+  h4, h4 > code {
     color: $headline-color;
     @include relative-font-size(1.125);
 
